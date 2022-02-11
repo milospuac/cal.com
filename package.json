@@ -16,6 +16,7 @@
     "dx": "turbo run dx",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
+    "pre-commit": "lint-staged",
     "prepare": "husky install",
     "start": "turbo run start",
     "test": "turbo run test",
@@ -39,6 +40,9 @@
     ],
     "*.json": [
       "prettier --write"
+    ],
+    "packages/prisma/schema.prisma": [
+      "prisma format"
     ]
   },
   "engines": {
