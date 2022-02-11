@@ -104,6 +104,7 @@ Here is what you need to be able to run Cal.
 
    ```sh
    cp apps/web/.env.example apps/web/.env
+   cp packages/prisma/.env.example packages/prisma/.env
    ```
 
 1. Install packages with yarn
