@@ -49,6 +49,9 @@
       ],
       "outputs": [".next/**"]
     },
+    "@calcom/web#dx": {
+      "dependsOn": ["@calcom/prisma#dx"]
+    },
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
