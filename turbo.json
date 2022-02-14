@@ -53,6 +53,7 @@
     "@calcom/web#dx": {
       "dependsOn": ["@calcom/prisma#dx"]
     },
+    "@calcom/web#start": {},
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
