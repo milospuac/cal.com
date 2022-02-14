@@ -25,7 +25,7 @@ const config: PlaywrightTestConfig = {
   globalSetup: require.resolve("./playwright/lib/globalSetup"),
   outputDir: "playwright/results",
   webServer: {
-    command: "yarn start --scope=@calcom/web",
+    command: "yarn start",
     port: 3000,
     timeout: 60_000,
     reuseExistingServer: !process.env.CI,
