@@ -6,9 +6,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 
-import { HeadSeo } from "@components/seo/head-seo";
 import prisma from "@lib/prisma";
 import { inferSSRProps } from "@lib/types/inferSSRProps";
+
+import { HeadSeo } from "@components/seo/head-seo";
 
 export type JoinCallPageProps = inferSSRProps<typeof getServerSideProps>;
 
